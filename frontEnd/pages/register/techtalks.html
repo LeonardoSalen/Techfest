@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTalks</title>
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- fonts -->
+        <!-- silkscreen font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+        <!-- press start 2p font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/techtalks.css">
+</head>
+<body>
+
+    <form action="/register/techTalks" class="form-ctn" method="POST">
+        <div class="form-header">
+            <p class="kicker">TechFest 2026</p>
+            <h2>Tech Talks Registration</h2>
+            <p class="subtitle">Secure your seat for the speakers series.</p>
+        </div>
+
+        <div id="formMessage" style="width:90%; margin: 20px auto;"></div>
+
+        <div class="form-grid">
+            <div class="form-row">
+                <label for="username">Full name</label>
+                <input type="text" name="full_name" class="form-control" placeholder="Juan Dela Cruz" required>
+            </div>
+
+            <div class="form-row">
+                <label for="schoolID">Student Number</label>
+                <input type="text"  name="student_number"  class="form-control" placeholder="20-12345" required>
+            </div>
+        </div>
+
+        <div class="guideline-ctn">
+            <div class="guideline-header">
+                <h4>Important Guidelines</h4>
+                <span class="tag">Read Before Registering</span>
+            </div>
+            <ul>
+                <li><strong>Registration Fee:</strong> 20.00 php</li>
+                <li>Participants must be enrolled in either the Bachelor of Science in Information Technology or the Bachelor of Science in Computer Science programs.</li>
+                <li>Wear your School ID</li>
+                <li>Follow the designated shirt color</li>
+                <li>Students are expected to observe the "Garbage In, Garbage Out" policy</li>
+                <li>Students must be enrolled in either the Bachelor of Science in Information Technology or the Bachelor of Science in Computer Science programs.</li>
+            </ul>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-register">Reserve Slot</button>
+            <a class="btn btn-return" href="/">Return to Events</a>
+        </div>
+    </form>
+    <h4 style=" text-align: center; padding: 40px 0 20px 0; color: aliceblue;"><span class="code-credits">CO:DE</span> x <span class="byte-credits">BYTE</span></h4>
+
+<script>
+
+</script>
+
+</body>
+</html>
